@@ -9,8 +9,8 @@ A powerful widget for managing and analyzing campaign intelligence data.
 
 **CDN Links:**
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shailesh12312/web-modules-cdn@v3.0.1/campaign-intelligence/style.css">
-<script src="https://cdn.jsdelivr.net/gh/shailesh12312/web-modules-cdn@v3.0.1/campaign-intelligence/campaign-intelligence.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shailesh12312/web-modules-cdn@main/campaign-intelligence/style.css">
+<script src="https://cdn.jsdelivr.net/gh/shailesh12312/web-modules-cdn@main/campaign-intelligence/campaign-intelligence.umd.js"></script>
 ```
 
 **Mount Point:**
@@ -30,8 +30,8 @@ A comprehensive widget for creating and managing creative briefs.
 
 **CDN Links:**
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shailesh12312/web-modules-cdn@v3.0.1/creative-brief/style.css">
-<script src="https://cdn.jsdelivr.net/gh/shailesh12312/web-modules-cdn@v3.0.1/creative-brief/creative-brief.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shailesh12312/web-modules-cdn@main/creative-brief/style.css">
+<script src="https://cdn.jsdelivr.net/gh/shailesh12312/web-modules-cdn@main/creative-brief/creative-brief.umd.js"></script>
 ```
 
 **Mount Point:**
@@ -50,8 +50,8 @@ An advanced widget for market research and intelligence gathering.
 
 **CDN Links:**
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shailesh12312/web-modules-cdn@v3.0.1/market-intelligence/style.css">
-<script src="https://cdn.jsdelivr.net/gh/shailesh12312/web-modules-cdn@v3.0.1/market-intelligence/market-intelligence.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shailesh12312/web-modules-cdn@main/market-intelligence/style.css">
+<script src="https://cdn.jsdelivr.net/gh/shailesh12312/web-modules-cdn@main/market-intelligence/market-intelligence.umd.js"></script>
 ```
 
 **Mount Point:**
@@ -75,11 +75,11 @@ window.MarketIntelligenceWidget.mount('market-intelligence-root', {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Campaign Intelligence</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shailesh12312/web-modules-cdn@v3.0.1/campaign-intelligence/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shailesh12312/web-modules-cdn@main/campaign-intelligence/style.css">
 </head>
 <body>
     <div id="campaign-intelligence-root"></div>
-    <script src="https://cdn.jsdelivr.net/gh/shailesh12312/web-modules-cdn@v3.0.1/campaign-intelligence/campaign-intelligence.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/shailesh12312/web-modules-cdn@main/campaign-intelligence/campaign-intelligence.umd.js"></script>
     <script>
         if (window.CampaignIntelligence) {
             window.CampaignIntelligence.mount('campaign-intelligence-root', {
